@@ -4,9 +4,9 @@ import {
   Modal,
   ModalHeader,
   ModalBody,
-  ModalFooter,
+ 
   Form,
-  FormGroup,
+ 
   Label,
   Input,
 } from "reactstrap";
@@ -31,9 +31,9 @@ const Booking = ({ movie }) => {
     const date = dateRef.current.value;
  
     console.log(
-        `Movie: ${movie} , Name: ${name} , Email: ${email}, Count: ${count}, Date: ${date}`
+        `Movie: ${movie} , Name: ${name} , Email: ${email}, Phone: ${phone} Count: ${count}, Date: ${date}`
     );
-    toast("Booking Successful ", {type:"success"})
+    toast("Booking Successful | Check Console ", {type:"success"})
   };
   return (
     <div>
