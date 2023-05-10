@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: none;
+}
+.bg-image{
+    background-image: url("https://wp.penguin.co.uk/wp-content/uploads/2022/05/Hidden-Books-TV-film_update_hero_desktop_Penguin.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.bg-modify{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+.bg-button{
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.bg-show{
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+height: 100vh;
+}
+.zoom {
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
+  }
+  
+  .zoom:hover { 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+   
+  }
+  .btn:hover{
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+  .modalbtn:hover{
+    color: white !important;
+  }
+  
+  /* Change scrollbar width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Change scrollbar track color */
+  ::-webkit-scrollbar-track {
+    background: #f5f9f9;
+  }
+  
+  /* Change scrollbar handle color */
+  ::-webkit-scrollbar-thumb {
+    background: #9b9a9a;
+  }
+  
+  /* Change scrollbar handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3a3939;
+  }
+
+  
+  @media (max-width: 768px) {
+.bg-show{
+    height: auto;
+}  
+}
+  
